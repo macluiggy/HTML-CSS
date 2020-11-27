@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hover, Active and Focus</title>
+	<style type="text/css">
+		button {
+			text-transform: capitalize;
+			background-color: brown;
+			color: white;
+			padding: 6px 12px 6px 12px;
+			border: 10px solid brown;
+		}
+		input {
+			padding: 6px 12px 6px 12px;
+			border: 10px solid brown;
+			color: brown;
+		}
+		button.submit:hover {
+			background-color: #665544;
+		}
+		button.submit:active {
+			background-color: chocolate;
+		}
+		button.text {
+			color: #cccccc;
+		}
+		button.text:focus {
+			color: #665544;
+		}
+	</style>
+</head>
+<body>
+	<input type="text" name="email" placeholder="Enter your email"><button>sbmit</button>
+</body>
+</html>
