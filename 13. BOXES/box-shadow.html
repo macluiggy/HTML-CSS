@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>box shadow</title>
+	<style type="text/css">
+		p {
+			width: 30px;
+			height: 30px;
+			padding: 50px;
+			border: solid 2px;
+		}
+	p.one {
+		box-shadow: -5px -5px #777777;
+	}
+	p.two {
+		box-shadow: 5px 5px 5px #777777;
+	}
+	p.three{
+		box-shadow: 5px 5px 5px 5px #777777;
+	}
+	p.four {
+		box-shadow: 0 0 10px 10px #777777;
+	}
+	p.five {
+		box-shadow: 0 0 10px 10px #777777 inset;
+	}
+	</style>
+</head>
+<body>
+	<p class="one"></p>
+<p class="two"></p>
+<p class="three"></p>
+<p class="four"></p>
+<p class="five"></p>
+</body>
+</html>
